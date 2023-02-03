@@ -47,22 +47,20 @@ class NeedBloodProfile extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Padding(
-                      padding: EdgeInsets.symmetric(
-                        horizontal: 10.w,
-                      ),
-                      child: Image.asset(
-                        "images/profile.png",
-                        height: 150.h,
-                        fit: BoxFit.fitWidth,
-                        width: double.infinity.w,
-                      )),
+
                   Padding(
                     padding: EdgeInsets.all(10),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        Image.asset(
+                          "images/profile.png",
+                          height: 150.h,
+                          fit: BoxFit.fitWidth,
+                          width: double.infinity.w,
+                        ),
+                        SizedBox(height: 10.h,),
                         //Name
                         Text("Name",style: TextStyle(
                             fontSize: 18.sp,

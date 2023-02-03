@@ -29,33 +29,38 @@ class NeedBloos extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10.h,),
-              Card(
-                child: Padding(
-                  padding: EdgeInsets.symmetric(vertical: 8.h,horizontal: 4.w),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Column(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("O+",style: TextStyle(
-                              color: Colors.black,
-                              fontSize: 20.sp,
-                              fontWeight: FontWeight.w500
-                          ),),
-                          Text("Pongu",style: TextStyle(
-                              fontSize: 18.sp,
-                              color: Colors.grey[700]
-                          ),),
-                          Text("2022-11-20",style: TextStyle(
-                              fontSize: 13.sp,
-                              color: Colors.grey[500]
-                          ),),
-                        ],
-                      ),
-                      Image.asset("images/profile.png",width: 45.w,),
-                    ],
+              GestureDetector(
+                onTap: (){
+                  Navigator.pushNamed(context, '/need-blood-profile');
+                },
+                child: Card(
+                  child: Padding(
+                    padding: EdgeInsets.symmetric(vertical: 8.h,horizontal: 4.w),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.start,
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("O+",style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 20.sp,
+                                fontWeight: FontWeight.w500
+                            ),),
+                            Text("Pongu",style: TextStyle(
+                                fontSize: 18.sp,
+                                color: Colors.grey[700]
+                            ),),
+                            Text("2022-11-20",style: TextStyle(
+                                fontSize: 13.sp,
+                                color: Colors.grey[500]
+                            ),),
+                          ],
+                        ),
+                        Image.asset("images/profile.png",width: 45.w,),
+                      ],
+                    ),
                   ),
                 ),
               ),

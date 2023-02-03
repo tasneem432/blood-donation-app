@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "377131996033",
+    "project_id": "blood-donation-app-3d3e8",
+    "storage_bucket": "blood-donation-app-3d3e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377131996033:android:f47d94170e4b7c3dd30e80",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377131996033-gfolqj8n7rrisaiepqcr8cm6apu06om2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_59A_N1a-NKINZnpuQ_nK3NXb863N-kA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377131996033-gfolqj8n7rrisaiepqcr8cm6apu06om2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377131996033:android:b9016417d96fcd87d30e80",
+        "android_client_info": {
+          "package_name": "com.tasneemhasan.blood_donation.blood_donation_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377131996033-09471vvcc8n24v218c18gbpmqjnrbkm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tasneemhasan.blood_donation.blood_donation_app",
+            "certificate_hash": "d62658efba362ae1e1db68ad6682b5286bdfff5b"
+          }
+        },
+        {
+          "client_id": "377131996033-gfolqj8n7rrisaiepqcr8cm6apu06om2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_59A_N1a-NKINZnpuQ_nK3NXb863N-kA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377131996033-gfolqj8n7rrisaiepqcr8cm6apu06om2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
