@@ -1,3 +1,4 @@
+import 'package:blood_donation_app/views/other_pages/user_details_page.dart';
 import 'package:blood_donation_app/views/registration/registration.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -98,11 +99,16 @@ class AmarDrawer extends StatelessWidget {
                   SizedBox(
                     width: 14.w,
                   ),
-                  Text(
-                    "Edit Details",
-                    style: TextStyle(
-                      fontSize: 13.h,
-                      fontWeight: FontWeight.w400,
+                  GestureDetector(
+                    onTap: (){
+                      Navigator.pushNamed(context, UserDetailsPage.routeName);
+                    },
+                    child: Text(
+                      "Edit Details",
+                      style: TextStyle(
+                        fontSize: 13.h,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ),
                 ],

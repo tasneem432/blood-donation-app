@@ -25,7 +25,7 @@ class RegistrationPage extends StatelessWidget {
                   fontWeight: FontWeight.w600,
                   color: Color(0xFF222222),
                 ),),
-                Text("Login Now",style: TextStyle(
+                Text("Register Now",style: TextStyle(
                   fontFamily: "lato",
                   fontSize: 25.sp,
                   fontWeight: FontWeight.w600,
@@ -38,11 +38,10 @@ class RegistrationPage extends StatelessWidget {
                       height: 48.h,
                       child: TextFormField(
                         decoration: InputDecoration(
-                            labelText: "Username ",
+                            labelText: "Email address ",
                             labelStyle: TextStyle(
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w400,
-                              fontFamily: "lato",
                               color: Color(0xFF777777),
                             ),
                             floatingLabelBehavior: FloatingLabelBehavior.always,
@@ -58,12 +57,12 @@ class RegistrationPage extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: 26.h,),
+                    SizedBox(height: 10.h,),
                     SizedBox(
                       height: 48.h,
                       child: TextFormField(
                         decoration: InputDecoration(
-                            labelText: "Username ",
+                            labelText: " Password ",
                             labelStyle: TextStyle(
                               fontSize: 14.sp,
                               fontWeight: FontWeight.w400,

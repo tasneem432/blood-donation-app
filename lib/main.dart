@@ -3,6 +3,7 @@ import 'package:blood_donation_app/views/filter_page.dart';
 import 'package:blood_donation_app/views/home_page.dart';
 import 'package:blood_donation_app/views/other_pages/donors_profile.dart';
 import 'package:blood_donation_app/views/other_pages/need_blood_profile.dart';
+import 'package:blood_donation_app/views/other_pages/user_details_page.dart';
 import 'package:blood_donation_app/views/registration/login.dart';
 import 'package:blood_donation_app/views/registration/registration.dart';
 import 'package:flutter/material.dart';
@@ -39,6 +40,8 @@ class MyApp extends StatelessWidget {
             '/need-blood-profile': (context) => NeedBloodProfile(),
             LoginPage.routeName : (context) => LoginPage(),
             RegistrationPage.routeName : (context) => RegistrationPage(),
+            UserDetailsPage.routeName: (context) => UserDetailsPage(),
+
 
 
           },
